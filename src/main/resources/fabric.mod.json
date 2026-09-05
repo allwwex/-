@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "peak_cosmetics",
+  "version": "${version}",
+  "name": "Peak Cosmetics",
+  "description": "Client-side PeakMC cosmetics for Minecraft 26.1.2.",
+  "authors": ["PeakMC"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "top.peakms.cosmetics.PeakCosmeticsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
